@@ -1,9 +1,8 @@
-import { DarukServer, controller, injectable, get } from "daruk";
+import { DarukServer, controller, get } from "daruk";
 
 (async () => {
   const myapp = DarukServer();
 
-  @injectable()
   @controller()
   class Index {
     @get("/")
@@ -12,7 +11,6 @@ import { DarukServer, controller, injectable, get } from "daruk";
     }
   }
 
-  myapp.initOptions();
-  await myapp.initPlugin();
+  await myapp.binding();
   myapp.listen(3000);
 })();
