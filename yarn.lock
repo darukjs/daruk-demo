@@ -373,9 +373,10 @@ daruk-request-id@^0.4.3:
     "@types/uuid" "^3.4.4"
     uuid "^3.3.2"
 
-daruk@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/daruk/-/daruk-2.1.0.tgz#cab3847e974982f2bce9b2a29974ed932322b2c0"
+daruk@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/daruk/-/daruk-2.1.1.tgz#1db7848142a2232401fd63f449a8339d1cf6d13c"
+  integrity sha512-P+1gxD26Ttr3bXpAmPu1uu+f2MmOqPg7G+g0+0e8jCZ3tGYQ8aZVeL4kJNyda9u0U4D0WHErOEgTDDVoJrbHbA==
   dependencies:
     "@koa/router" "^9.4.0"
     "@types/cron" "^1.7.1"
