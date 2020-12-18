@@ -132,10 +132,6 @@
   version "14.6.2"
   resolved "https://registry.npmjs.org/@types/node/-/node-14.6.2.tgz#264b44c5a28dfa80198fc2f7b6d3c8a054b9491f"
 
-"@types/node@^10.12.18":
-  version "10.17.28"
-  resolved "https://registry.npmjs.org/@types/node/-/node-10.17.28.tgz#0e36d718a29355ee51cec83b42d921299200f6d9"
-
 "@types/node@^12.0.0":
   version "12.12.54"
   resolved "https://registry.npmjs.org/@types/node/-/node-12.12.54.tgz#a4b58d8df3a4677b6c08bfbc94b7ad7a7a5f82d1"
@@ -373,16 +369,14 @@ daruk-request-id@^0.4.3:
     "@types/uuid" "^3.4.4"
     uuid "^3.3.2"
 
-daruk@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/daruk/-/daruk-2.1.1.tgz#1db7848142a2232401fd63f449a8339d1cf6d13c"
-  integrity sha512-P+1gxD26Ttr3bXpAmPu1uu+f2MmOqPg7G+g0+0e8jCZ3tGYQ8aZVeL4kJNyda9u0U4D0WHErOEgTDDVoJrbHbA==
+daruk@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.npmjs.org/daruk/-/daruk-2.2.4.tgz#24cf8d34d5e9a70bb7fec7036153198d17e225c3"
   dependencies:
     "@koa/router" "^9.4.0"
     "@types/cron" "^1.7.1"
     "@types/koa" "^2.0.46"
     "@types/koa__router" "^8.0.2"
-    "@types/node" "^10.12.18"
     "@types/recursive-readdir" "^2.2.0"
     "@types/url-join" "^4.0.0"
     chalk "^2.4.1"
